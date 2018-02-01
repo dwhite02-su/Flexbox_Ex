@@ -1,0 +1,108 @@
+/* WEB */ 
+    html , body {
+        margin: auto;
+        padding: auto;
+        height: 100%;
+    }
+
+        .header {
+            background-color: rgb(233, 95, 85);
+            height: 100px;
+        }
+
+        .footer {
+                background-color: rgb(75, 75, 75);
+                height: 200px;
+        }
+
+/* PAGE 1 */
+    .container  {
+                display: flex;
+                height: 200px;
+                }
+
+        .kid{
+            margin: 10px;
+            background-color: paleturquoise;
+            flex-basis: 50%;
+            flex-shrink: 1;  
+            }
+
+        .red-kid{
+                background-color: palevioletred;
+                margin: 10px;
+                flex: 1 0 0px;    /* flex grow ,flex shrink, size */
+                }
+
+            .red-kid-middle{
+                            flex-grow: 2;
+                            }
+
+        .purple-kid{
+                    background-color: violet;
+                    margin: 10px;
+                    flex: 2 0 0px;
+                    }
+
+            .purple-kid-middle  {
+                                flex-grow: 1;
+                                }
+
+    .green-container{
+                    justify-content: space-between;
+                    }
+
+        .green-kid  {
+                    background-color: palegreen;
+                    margin: 10px;
+                    flex-basis: 33.3333%
+                    }
+
+        .yellow-kid {
+                    background-color: palegoldenrod;
+                    margin: 10px;
+                    flex-basis: 25%;
+                    }
+
+            .yellow-kid-last{
+                            margin-left: auto;
+            }
+
+/* PAGE 2 */
+    .content{
+            display: flex;
+            height: 650px;
+            flex: 1 1 0px;
+            }
+
+        .box{
+            background-color: rgb(253, 253, 253);
+            border-style: solid;
+            border-color: rgb(124, 124, 124);
+            border-width: 1px;
+            margin: 10px;
+            flex-basis: 20%
+            }
+
+        .box-left {
+                    flex-basis: 60%; 
+                    flex-grow: 2;
+        }
+/* PAGE 3 */
+    .cont   {
+            flex-shrink: 2;
+            height: 900px;
+            margin: 150px;
+            margin-top: 200px;
+            }
+
+       .color   {
+                display: flex;                
+                }
+
+            .item   {
+                    background: rgba(215, 125, 8, 0.849);
+                    flex-basis: 50%;
+                    padding: 150px;
+                    margin: 10px;
+                    }  
